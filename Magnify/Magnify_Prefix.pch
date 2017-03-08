@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'Magnify' target in the 'Magnify' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define APP_VERSION 3

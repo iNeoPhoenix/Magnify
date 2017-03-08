@@ -1,0 +1,18 @@
+﻿/* 
+   Localizable.strings
+   Magnify
+
+   Created by Stéphane Chrétien on 18/08/09.
+   Copyright 2009 Cokoala. All rights reserved.
+ */
+
+"TutoTitle"		= "Welcome";
+"TutoMessage"	= "\"Lupa\" es muy fácil de usar: para aumentar el zoom, pasa la langüeta de la izquierda a la derecha.\n\nHace un doble \"tap\" para ver a pantalla completa.";
+"TutoOk"		= "Ok";
+
+"ErrorTitle"	= "Atención";
+"ErrorMessage"	= "\"Lupa\" necesita la cámara y sólo puede funcionar en un iPhone 3GS.";
+"ErrorOk"		= "Ok";
+
+"FullScreenIn"  = "Pantalla completa";
+"FullScreenOut" = "Interfaz";

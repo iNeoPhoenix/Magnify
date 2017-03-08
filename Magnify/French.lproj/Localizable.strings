@@ -1,0 +1,18 @@
+﻿/* 
+   Localizable.strings
+   Magnify
+
+   Created by Stéphane Chrétien on 18/08/09.
+   Copyright 2009 Cokoala. All rights reserved.
+ */
+
+"TutoTitle"   = "Bienvenue";
+"TutoMessage" = "\"Ma Loupe\" est très simple d'utilisation : pour augmenter le grossissement, déplacez la languette ci-dessous vers la droite.\n\nFaites un \"double tap\" pour passer en plein écran.";
+"TutoOk"      = "Ok";
+
+"ErrorTitle"	= "Attention";
+"ErrorMessage"	= "L'application \"Ma Loupe\" à besoin de l'appareil photo et ne peut fonctionner que sur un iPhone 3GS.";
+"ErrorOk"		= "Ok";
+
+"FullScreenIn"  = "Plein écran";
+"FullScreenOut" = "Interface";

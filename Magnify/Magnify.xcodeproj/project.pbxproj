@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MagnifyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MagnifyAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		9C506DBC10BD0CE30091E995 /* FondFullScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C506DBA10BD0CE30091E995 /* FondFullScreen.png */; };
+		9C506DBD10BD0CE30091E995 /* SliderFullScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C506DBB10BD0CE30091E995 /* SliderFullScreen.png */; };
+		9C52B72910BEC57E00463A61 /* MessageBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C52B72810BEC57E00463A61 /* MessageBox.png */; };
+		F4087B69103B0E6D009FE005 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4087B68103B0E6D009FE005 /* Icon.png */; };
+		F4087B72103B1760009FE005 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4087B71103B1760009FE005 /* InfoPlist.strings */; };
+		F4087B7A103B1BD4009FE005 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4087B79103B1BD4009FE005 /* Localizable.strings */; };
+		F452789111EA29FB00F2BE11 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F452789011EA29FB00F2BE11 /* Icon@2x.png */; };
+		F45278AB11EA2AF100F2BE11 /* MessageBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278AA11EA2AF100F2BE11 /* MessageBox@2x.png */; };
+		F45278B111EA2F6D00F2BE11 /* FondFullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278AF11EA2F6D00F2BE11 /* FondFullScreen@2x.png */; };
+		F45278B211EA2F6D00F2BE11 /* SliderFullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278B011EA2F6D00F2BE11 /* SliderFullScreen@2x.png */; };
+		F45278B911EA315F00F2BE11 /* Contour@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278B811EA315F00F2BE11 /* Contour@2x.png */; };
+		F45278C511EA31F700F2BE11 /* ContourOmbre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278C411EA31F700F2BE11 /* ContourOmbre@2x.png */; };
+		F45278CD11EA337F00F2BE11 /* Fond@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278CC11EA337F00F2BE11 /* Fond@2x.png */; };
+		F45278D211EA349700F2BE11 /* Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278D111EA349700F2BE11 /* Slider@2x.png */; };
+		F45278EB11EA3DB600F2BE11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45278EA11EA3DB600F2BE11 /* Default@2x.png */; };
+		F471D37D10750B8B0040D07C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F471D37C10750B8B0040D07C /* Default.png */; };
+		F4931C8810220EF5000F30BC /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4931C8710220EF4000F30BC /* RootView.m */; };
+		F4931C8B10220F09000F30BC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4931C8A10220F09000F30BC /* RootViewController.m */; };
+		F49AC2C41038327F00B941A6 /* ContourOmbre.png in Resources */ = {isa = PBXBuildFile; fileRef = F49AC2C31038327F00B941A6 /* ContourOmbre.png */; };
+		F4C0F259103C589600C6D520 /* MagnifyNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C0F258103C589600C6D520 /* MagnifyNotifications.m */; };
+		F4FF8EA51020DECB0004E5BF /* Contour.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FF8EA11020DECB0004E5BF /* Contour.png */; };
+		F4FF8EA61020DECB0004E5BF /* Fond.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FF8EA21020DECB0004E5BF /* Fond.png */; };
+		F4FF8EA81020DECB0004E5BF /* Slider.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FF8EA41020DECB0004E5BF /* Slider.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MagnifyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnifyAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MagnifyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifyAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Magnify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Magnify_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magnify_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Magnify-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Magnify-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9C506DBA10BD0CE30091E995 /* FondFullScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FondFullScreen.png; path = Resources/FondFullScreen.png; sourceTree = SOURCE_ROOT; };
+		9C506DBB10BD0CE30091E995 /* SliderFullScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SliderFullScreen.png; path = Resources/SliderFullScreen.png; sourceTree = SOURCE_ROOT; };
+		9C52B72810BEC57E00463A61 /* MessageBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MessageBox.png; path = Resources/MessageBox.png; sourceTree = SOURCE_ROOT; };
+		F4087B68103B0E6D009FE005 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = SOURCE_ROOT; };
+		F4087B6F103B1737009FE005 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4087B73103B176C009FE005 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4087B74103B1777009FE005 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4087B77103B1BB9009FE005 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4087B7B103B1BE1009FE005 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F452789011EA29FB00F2BE11 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278AA11EA2AF100F2BE11 /* MessageBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MessageBox@2x.png"; path = "Resources/MessageBox@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278AF11EA2F6D00F2BE11 /* FondFullScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FondFullScreen@2x.png"; path = "Resources/FondFullScreen@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278B011EA2F6D00F2BE11 /* SliderFullScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderFullScreen@2x.png"; path = "Resources/SliderFullScreen@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278B811EA315F00F2BE11 /* Contour@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Contour@2x.png"; path = "Resources/Contour@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278C411EA31F700F2BE11 /* ContourOmbre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ContourOmbre@2x.png"; path = "Resources/ContourOmbre@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278CC11EA337F00F2BE11 /* Fond@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fond@2x.png"; path = "Resources/Fond@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278D111EA349700F2BE11 /* Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slider@2x.png"; path = "Resources/Slider@2x.png"; sourceTree = SOURCE_ROOT; };
+		F45278EA11EA3DB600F2BE11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		F471D37C10750B8B0040D07C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = SOURCE_ROOT; };
+		F4931C8610220EF4000F30BC /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		F4931C8710220EF4000F30BC /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		F4931C8910220F09000F30BC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F4931C8A10220F09000F30BC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F49AC2C31038327F00B941A6 /* ContourOmbre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ContourOmbre.png; path = Resources/ContourOmbre.png; sourceTree = SOURCE_ROOT; };
+		F49E22DA103EEF8F007EC35E /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4C0F257103C589600C6D520 /* MagnifyNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnifyNotifications.h; sourceTree = "<group>"; };
+		F4C0F258103C589600C6D520 /* MagnifyNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifyNotifications.m; sourceTree = "<group>"; };
+		F4FF8EA11020DECB0004E5BF /* Contour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Contour.png; path = Resources/Contour.png; sourceTree = "<group>"; };
+		F4FF8EA21020DECB0004E5BF /* Fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fond.png; path = Resources/Fond.png; sourceTree = "<group>"; };
+		F4FF8EA41020DECB0004E5BF /* Slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Slider.png; path = Resources/Slider.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MagnifyAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MagnifyAppDelegate.m */,
+				F4C0F257103C589600C6D520 /* MagnifyNotifications.h */,
+				F4C0F258103C589600C6D520 /* MagnifyNotifications.m */,
+				F4FF8E941020B6CE0004E5BF /* View */,
+				F4FF8E931020B6BB0004E5BF /* View Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Magnify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Magnify_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF8EA91020DED20004E5BF /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Magnify-Info.plist */,
+				F471D37C10750B8B0040D07C /* Default.png */,
+				F45278EA11EA3DB600F2BE11 /* Default@2x.png */,
+				F4087B71103B1760009FE005 /* InfoPlist.strings */,
+				F4087B79103B1BD4009FE005 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4FF8E931020B6BB0004E5BF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4931C8910220F09000F30BC /* RootViewController.h */,
+				F4931C8A10220F09000F30BC /* RootViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		F4FF8E941020B6CE0004E5BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4931C8610220EF4000F30BC /* RootView.h */,
+				F4931C8710220EF4000F30BC /* RootView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F4FF8EA91020DED20004E5BF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4087B68103B0E6D009FE005 /* Icon.png */,
+				F452789011EA29FB00F2BE11 /* Icon@2x.png */,
+				9C52B72810BEC57E00463A61 /* MessageBox.png */,
+				F45278AA11EA2AF100F2BE11 /* MessageBox@2x.png */,
+				9C506DBA10BD0CE30091E995 /* FondFullScreen.png */,
+				F45278AF11EA2F6D00F2BE11 /* FondFullScreen@2x.png */,
+				9C506DBB10BD0CE30091E995 /* SliderFullScreen.png */,
+				F45278B011EA2F6D00F2BE11 /* SliderFullScreen@2x.png */,
+				F4FF8EA11020DECB0004E5BF /* Contour.png */,
+				F45278B811EA315F00F2BE11 /* Contour@2x.png */,
+				F49AC2C31038327F00B941A6 /* ContourOmbre.png */,
+				F45278C411EA31F700F2BE11 /* ContourOmbre@2x.png */,
+				F4FF8EA21020DECB0004E5BF /* Fond.png */,
+				F45278CC11EA337F00F2BE11 /* Fond@2x.png */,
+				F4FF8EA41020DECB0004E5BF /* Slider.png */,
+				F45278D111EA349700F2BE11 /* Slider@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Magnify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Magnify" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnify;
+			productName = Magnify;
+			productReference = 1D6058910D05DD3D006BFB54 /* Magnify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Magnify" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Magnify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F4FF8EA51020DECB0004E5BF /* Contour.png in Resources */,
+				F4FF8EA61020DECB0004E5BF /* Fond.png in Resources */,
+				F4FF8EA81020DECB0004E5BF /* Slider.png in Resources */,
+				F49AC2C41038327F00B941A6 /* ContourOmbre.png in Resources */,
+				F4087B69103B0E6D009FE005 /* Icon.png in Resources */,
+				F4087B72103B1760009FE005 /* InfoPlist.strings in Resources */,
+				F4087B7A103B1BD4009FE005 /* Localizable.strings in Resources */,
+				F471D37D10750B8B0040D07C /* Default.png in Resources */,
+				9C506DBC10BD0CE30091E995 /* FondFullScreen.png in Resources */,
+				9C506DBD10BD0CE30091E995 /* SliderFullScreen.png in Resources */,
+				9C52B72910BEC57E00463A61 /* MessageBox.png in Resources */,
+				F452789111EA29FB00F2BE11 /* Icon@2x.png in Resources */,
+				F45278AB11EA2AF100F2BE11 /* MessageBox@2x.png in Resources */,
+				F45278B111EA2F6D00F2BE11 /* FondFullScreen@2x.png in Resources */,
+				F45278B211EA2F6D00F2BE11 /* SliderFullScreen@2x.png in Resources */,
+				F45278B911EA315F00F2BE11 /* Contour@2x.png in Resources */,
+				F45278C511EA31F700F2BE11 /* ContourOmbre@2x.png in Resources */,
+				F45278CD11EA337F00F2BE11 /* Fond@2x.png in Resources */,
+				F45278D211EA349700F2BE11 /* Slider@2x.png in Resources */,
+				F45278EB11EA3DB600F2BE11 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MagnifyAppDelegate.m in Sources */,
+				F4931C8810220EF5000F30BC /* RootView.m in Sources */,
+				F4931C8B10220F09000F30BC /* RootViewController.m in Sources */,
+				F4C0F259103C589600C6D520 /* MagnifyNotifications.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4087B71103B1760009FE005 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4087B6F103B1737009FE005 /* English */,
+				F4087B73103B176C009FE005 /* French */,
+				F4087B74103B1777009FE005 /* Spanish */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4087B79103B1BD4009FE005 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4087B77103B1BB9009FE005 /* English */,
+				F4087B7B103B1BE1009FE005 /* French */,
+				F49E22DA103EEF8F007EC35E /* Spanish */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephane Chretien (P345PZDEAE)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Magnify_Prefix.pch;
+				INFOPLIST_FILE = "Magnify-Info.plist";
+				PRODUCT_NAME = Magnify;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B35DE598-FB65-4D3C-8E43-83247BA7BE3A";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephane Chretien (P345PZDEAE)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Magnify_Prefix.pch;
+				INFOPLIST_FILE = "Magnify-Info.plist";
+				PRODUCT_NAME = Magnify;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B35DE598-FB65-4D3C-8E43-83247BA7BE3A";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		F471D39E107512490040D07C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		F471D39F107512490040D07C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephane Chretien";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Magnify_Prefix.pch;
+				INFOPLIST_FILE = "Magnify-Info.plist";
+				PRODUCT_NAME = Magnify;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A84EF84-A79C-4813-BF7D-301D9CC45204";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Magnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F471D39F107512490040D07C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Magnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F471D39E107512490040D07C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
