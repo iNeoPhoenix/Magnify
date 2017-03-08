@@ -26,8 +26,8 @@
 	UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:m_RootViewController];
 	
 	// Add the navigation's view to the window
-	[window addSubview:navigationController.view];
-	
+    window.rootViewController = navigationController;
+    
     // Display the window
     [window makeKeyAndVisible];
 	
